@@ -5,7 +5,7 @@ h1{color: rgb(255, 0, 0);}
  
 .principal {color: rgb(125, 197, 43); }
 
-.caja { 
+.caja {  
     width: 300px;
      height: 300px;
       padding:25px;
@@ -27,7 +27,20 @@ h1{color: rgb(255, 0, 0);}
 
 .grid-container { display: grid;
                    grid-template-columns: auto auto auto;
-                    gap: 10px; }
+                    gap: 10px; 
+                     height: 300px;
+                      width: 300px;
+                       padding: 25px;
+                        margin: 40px;}
 
 .grid-item { background-color: green;
-              padding: 20px;}                      
+              padding: 25px;
+               height: 300px;
+              width: 300px;
+          padding: 25px;
+      margin: 40px;
+  border: 3px solid blue;}    
+  
+  @media (max-width:600px) { 
+.contenedor{
+    flex-direction: column; }}
