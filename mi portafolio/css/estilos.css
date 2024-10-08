@@ -21,7 +21,7 @@ header {
                 background-color: #f4f4f4;}
             #about h2 {
             margin-top: 0;}
-            gallery {
+    .gallery {
                 display: flex;
                 flex-wrap: wrap;
                 gap: 20px;
@@ -29,12 +29,13 @@ header {
        .project {
         width: 300px;
         padding: 10px;
-        background-color: #fff;
-        border: 1px solid; #ddd;
+        background: #fff;
+        border: 1px solid #ddd;
         text-align: center;}
         .project img {
             max-width: 100%;
-            height: auto;}
+            height: auto;
+        }
         #contact {
             padding: 20px;}
             form {
@@ -42,6 +43,10 @@ header {
                 flex-direction: column;}
                 form label {
                     margin-bottom: 5px;}
+                    form input,form textarea {
+                        margin-bottom: 10px;
+                        padding: 10px;
+                        font-size: 16px;}
                     form input [type="submit"]{
                         background: #333;
                     color: #fff;
@@ -52,7 +57,7 @@ header {
                     display: flex;
                     flex-direction: column;
                     align-items: center;}
-                    gallery {
+                    .gallery {
                         flex-direction: column;
                         align-items: center;}
                     }
